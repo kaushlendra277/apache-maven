@@ -6,3 +6,7 @@ As part of this project we have add added a dependency to the project as
 		<artifactId>commons-lang3</artifactId>
 		<version>${commons-lang3-version}</version>
 	</dependency>
+	
+# Commands used
+mvn clean,
+mvn package
