@@ -10,6 +10,7 @@
 	<artifactId>module1</artifactId>
 	<name>module1-name</name>
 	<description>module1-desc</description>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<dependencies>
 		<dependency>

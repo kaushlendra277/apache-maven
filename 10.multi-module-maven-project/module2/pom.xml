@@ -7,22 +7,15 @@
 		<artifactId>10.multi-module-maven-project</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>module1</artifactId>
-	<name>module1-name</name>
-	<description>module1-desc</description>
-	
+	<artifactId>module2</artifactId>
+	<name>module2-name</name>
+	<description>module2-desc</description>
+	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>5.4.2.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.6</version>
-			<scope>provided</scope>
+			<groupId>com.ksc.m3p</groupId>
+			<artifactId>module1</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
-
 </project>
