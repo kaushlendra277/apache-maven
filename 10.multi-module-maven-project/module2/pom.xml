@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>com.ksc.m3p</groupId>
 		<artifactId>10.multi-module-maven-project</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>${revision}</version>
 	</parent>
 	<artifactId>module2</artifactId>
 	<name>module2-name</name>
 	<description>module2-desc</description>
-	<version>${m3p.version}</version>
+	<version>${revision}</version>
 	<dependencies>
 		<dependency>
 			<groupId>com.ksc.m3p</groupId>
