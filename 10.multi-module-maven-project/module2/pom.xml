@@ -10,12 +10,12 @@
 	<artifactId>module2</artifactId>
 	<name>module2-name</name>
 	<description>module2-desc</description>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${m3p.version}</version>
 	<dependencies>
 		<dependency>
 			<groupId>com.ksc.m3p</groupId>
 			<artifactId>module1</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 </project>
