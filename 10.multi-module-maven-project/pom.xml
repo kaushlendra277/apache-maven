@@ -4,7 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ksc.m3p</groupId>
 	<artifactId>10.multi-module-maven-project</artifactId>
-	<version>${m3p.version}</version>
+	<!-- why is this failing -->
+	<!--  
+		<version>${revision}</version>
+	-->
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>10.multi-module-maven-project-name</name>
 	<description>10.multi-module-maven-project-desc</description>
